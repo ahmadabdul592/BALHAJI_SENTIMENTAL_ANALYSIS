@@ -391,3 +391,12 @@ with tab_about:
         and demonstration purposes — not for high-stakes decision-making.
         """
     )
+st.markdown(
+    """
+    <div style="text-align: center; padding: 1rem 0 0.5rem; color: #777;">
+        © 2026 Computer Science Project · Designed by Abdulaziz Ahmad Abdul
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
