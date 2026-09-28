@@ -1,0 +1,86 @@
+{
+  "best_model": "Linear SVM",
+  "feature_type": "tfidf_wc",
+  "best_overall_model": "Fine-tuned afro-xlmr-base",
+  "transformer_model": "Fine-tuned afro-xlmr-base",
+  "transformer_dir": "transformer_model",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "metrics": [
+    {
+      "Model": "Fine-tuned afro-xlmr-base",
+      "Features": "TRANSFORMER",
+      "CV Macro-F1": null,
+      "Val F1 (macro)": 0.5649638411161203,
+      "Test Accuracy": 0.697391304347826,
+      "Test Precision (macro)": 0.5702899532162614,
+      "Test Recall (macro)": 0.6201280603560186,
+      "Test F1 (macro)": 0.5832041591050549,
+      "Test F1 (weighted)": 0.71084918541316,
+      "Test AUC-ROC (OvR macro)": 0.7698818199555912
+    },
+    {
+      "Model": "Fine-tuned afriberta_large",
+      "Features": "TRANSFORMER",
+      "CV Macro-F1": null,
+      "Val F1 (macro)": 0.5192225477376123,
+      "Test Accuracy": 0.6718840579710145,
+      "Test Precision (macro)": 0.5376940184245134,
+      "Test Recall (macro)": 0.55505361376679,
+      "Test F1 (macro)": 0.5447959494242,
+      "Test F1 (weighted)": 0.6763417767348314,
+      "Test AUC-ROC (OvR macro)": 0.7329248127055799
+    },
+    {
+      "Model": "Linear SVM",
+      "Features": "TFIDF_WC",
+      "CV Macro-F1": 0.49206516146845464,
+      "Val F1 (macro)": 0.4644461560616082,
+      "Test Accuracy": 0.6417391304347826,
+      "Test Precision (macro)": 0.5164017219548592,
+      "Test Recall (macro)": 0.5421684624855442,
+      "Test F1 (macro)": 0.5256863440736911,
+      "Test F1 (weighted)": 0.6477738805543727,
+      "Test AUC-ROC (OvR macro)": 0.7185424763845613
+    },
+    {
+      "Model": "Logistic Regression",
+      "Features": "TFIDF_WC",
+      "CV Macro-F1": 0.49286547340365006,
+      "Val F1 (macro)": 0.46419279269691155,
+      "Test Accuracy": 0.6359420289855072,
+      "Test Precision (macro)": 0.5086860345979206,
+      "Test Recall (macro)": 0.5355140845371956,
+      "Test F1 (macro)": 0.5176739447396702,
+      "Test F1 (weighted)": 0.6432134840388664,
+      "Test AUC-ROC (OvR macro)": 0.7207852251421228
+    },
+    {
+      "Model": "Multinomial Naive Bayes",
+      "Features": "BOW",
+      "CV Macro-F1": 0.47724090173065503,
+      "Val F1 (macro)": 0.45406774860757904,
+      "Test Accuracy": 0.6521739130434783,
+      "Test Precision (macro)": 0.4957437067015746,
+      "Test Recall (macro)": 0.4785569261154922,
+      "Test F1 (macro)": 0.4848545537010425,
+      "Test F1 (weighted)": 0.6437656528644178,
+      "Test AUC-ROC (OvR macro)": 0.7237001847630243
+    },
+    {
+      "Model": "Random Forest",
+      "Features": "TFIDF",
+      "CV Macro-F1": 0.4751092299660131,
+      "Val F1 (macro)": 0.4497113608842103,
+      "Test Accuracy": 0.6081159420289856,
+      "Test Precision (macro)": 0.4686549707602339,
+      "Test Recall (macro)": 0.476470043281045,
+      "Test F1 (macro)": 0.4682362299223439,
+      "Test F1 (weighted)": 0.6080577539815546,
+      "Test AUC-ROC (OvR macro)": 0.6690631255373347
+    }
+  ]
+}
